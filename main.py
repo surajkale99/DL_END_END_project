@@ -41,6 +41,18 @@ except Exception as e:
         raise e 
 
 
+import mlflow
+import os
+
+
+
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/surajkale99/DL_END_END_project.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="surajkale99"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="e4f2406488322cebc687e5c389841eb67f8beeec"
+
+# Set MLflow tracking URI
+mlflow.set_tracking_uri("https://dagshub.com/surajkale99/DL_END_END_project.mlflow")
+
 
 STAGE_NAME = "Evaluation stage"
 try:
