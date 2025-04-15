@@ -11,7 +11,7 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the dvc.yaml
-10. app.py
+10. app.py 
 
 ## steps-1 install git
 
@@ -25,5 +25,8 @@ git clone https://github.com/surajkale99/DL_END_END_project.git
 ## step-4 requirements
 
 pip install -r requirements.txt
+
+# deployement
+# docker,aws,ci/cd pipeline
 
 
