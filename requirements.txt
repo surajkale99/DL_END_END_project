@@ -2,7 +2,6 @@ tensorflow
 pandas 
 dvc
 pyarrow==14.0.2
-mlflow==2.2.2
 notebook
 numpy
 matplotlib
