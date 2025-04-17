@@ -27,7 +27,7 @@ git clone https://github.com/surajkale99/DL_END_END_project.git
 pip install -r requirements.txt
 
 #   AWS-CICD-Deployment-with-Github-Actions
-
+# 
 ## 1. Login to AWS console.
 
 ## 2. Create IAM user for deployment
