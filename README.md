@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
     
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI:170533023526.dkr.ecr.ap-south-1.amazonaws.com/myproject
 
     
 ## 4. Create EC2 machine (Ubuntu) 
@@ -81,7 +81,8 @@ pip install -r requirements.txt
 
     sudo usermod -aG docker ubuntu
 
-    newgrp docker
+    
+    ....
     
 # 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
